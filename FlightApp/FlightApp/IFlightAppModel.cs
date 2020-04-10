@@ -11,7 +11,7 @@ namespace FlightApp
     {
         //event PropertyChangedEventHandler PropertyChanged;
         void NotifyPropertyChanged(string propName);
-        void connect(string ip, int port);
+        void connect();
         void disconnect();
 
         void start();

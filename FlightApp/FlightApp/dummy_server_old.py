@@ -4,27 +4,13 @@ import logging
 import math
 from typing import Dict, List, Tuple
 
-DEFAULT_LISTEN_PORT = 5402
+DEFAULT_LISTEN_PORT = 5402 
 THROTTLE = '/controls/engines/current-engine/throttle'
-AILERON = '/controls/flight/aileron'
-ELEVATOR = '/controls/flight/elevator'
 RUDDER = '/controls/flight/rudder'
 LATITUDE = '/position/latitude-deg'
-LONGITUDE = '/position/longitude-deg'
-AIR_SPEED = '/airspeed-indicator_indicated-speed-kt'
-ALTITUDE = '/gps_indicated-altitude-ft'
-ROLL = '/attitude-indicator_internal-roll-deg'
-PITCH = '/attitude-indicator_internal-pitch-deg'
-ALTIMETER = '/altimeter_indicated-altitude-ft'
-HEADING = '/indicated-heading-deg'
-GROUND_SPEED = '/gps_indicated-ground-speed-kt'
-VERTICAL_SPEED = '/gps_indicated-vertical-speed'
-
-EXAMPLE_FIELDS = {THROTTLE: (-90, 90), AILERON: (-90, 90), ELEVATOR: (-90, 90), RUDDER: (-90, 90),
-                  LATITUDE: (-90, 90), LONGITUDE:(-90, 90), AIR_SPEED:(-90, 90), ALTITUDE: (-90, 90),
-                  ROLL: (-90, 90), PITCH:(-90, 90), ALTIMETER:(-90, 90), HEADING:(-90, 90),
-                  GROUND_SPEED: (-90, 90),VERTICAL_SPEED: (-90, 90)}
-
+EXAMPLE_FIELDS = {THROTTLE: (-1, 1), 
+                  RUDDER: (-1, 1), 
+                  LATITUDE: (-90, 90)}
 
 class FlightSimulator:
 
@@ -107,17 +93,18 @@ class Server:
             data = client_socket.recv(self.chunk_size)
             while data:
                 text = data.decode('ascii')
-                print("data from client socket: "+text)
+                print("text: "+text)
                 # Concatenate whatever comes from the client
                 # with the previous unhandled partial message
                 buffer += text
-                print("buffer before Server.process_text: "+buffer)
+                print("buffer before: "+buffer)
                 commands, buffer = Server.process_text(buffer)
-                print("commands after Server.process_text: "+', '.join(commands))
-                print("buffer after Server.process_text: "+buffer)
+                print("commands after: "+', '.join(commands))
+                print("buffer after: "+buffer)
                 for command in commands:
                     result = message_handler(command) + '\n'
                     result_data = result.encode('ascii')
+                    print("result_data: " + result_data)
                     client_socket.sendall(result_data)
                 data = client_socket.recv(self.chunk_size)
 
@@ -133,6 +120,7 @@ class Server:
             next_buffer = lines[-1]
             lines = lines[:-1]
         commands = [line.strip() for line in lines if line.strip()]
+        print ("commands in process_text: "+', '.join(commands))
         # last unprocessed text (didn't end with a newline)
         # becomes the new buffer
         return commands, next_buffer

@@ -1,0 +1,29 @@
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\bin\Debug\FlightApp.exe.config
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\bin\Debug\FlightApp.exe
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\bin\Debug\FlightApp.pdb
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\obj\Debug\MainWindow.g.cs
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\obj\Debug\App.g.cs
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp_MarkupCompile.cache
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp_MarkupCompile.lref
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\obj\Debug\MainWindow.baml
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.g.resources
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.Properties.Resources.resources
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.csproj.GenerateResource.cache
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.csproj.CoreCompileInputs.cache
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.exe
+C:\Users\sara\Documents\בר אילן\תכנות מתקדם 2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.pdb
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\bin\Debug\FlightApp.exe.config
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\bin\Debug\FlightApp.exe
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\bin\Debug\FlightApp.pdb
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.csprojAssemblyReference.cache
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\MainWindow.g.cs
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\App.g.cs
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp_MarkupCompile.cache
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp_MarkupCompile.lref
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\MainWindow.baml
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.g.resources
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.Properties.Resources.resources
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.csproj.GenerateResource.cache
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.csproj.CoreCompileInputs.cache
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.exe
+C:\Users\sara\Documents\Bar Ilan\advansedProgramming2\flightgearapp\FlightApp\FlightApp\obj\Debug\FlightApp.pdb

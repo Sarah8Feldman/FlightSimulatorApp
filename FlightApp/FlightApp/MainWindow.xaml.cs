@@ -23,6 +23,13 @@ namespace FlightApp
         public MainWindow()
         {
             InitializeComponent();
+            Console.WriteLine("Main Method");
+            FlightAppModel fm = new FlightAppModel();
+            fm.connect();
+            fm.start();
+
+
         }
     }
+
 }
